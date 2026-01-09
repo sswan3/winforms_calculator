@@ -58,8 +58,11 @@ namespace Swan_Project
             {
                 MessageBox.Show("cannot divide by 0");
             }
-            double divide = calc.divide(input, input2);
-            MessageBox.Show(divide.ToString());
+            else
+            {
+                double divide = calc.divide(input, input2);
+                MessageBox.Show(divide.ToString());
+            }
         }
 
         private void multiply_Click(object sender, EventArgs e)
